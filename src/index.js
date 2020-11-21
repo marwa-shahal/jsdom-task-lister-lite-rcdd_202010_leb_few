@@ -3,7 +3,6 @@ document.addEventListener("DOMContentLoaded", () => {
   
 const button=document.getElementById("create-task-form");
 button.addEventListener("submit",taskstring);
-});
 
 function taskstring (e) {
   e.preventDefault();
@@ -12,3 +11,6 @@ function taskstring (e) {
  st.innerText= task.value;
  document.getElementById('tasks').appendChild(st);
 }
+});
+
+
